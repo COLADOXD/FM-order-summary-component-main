@@ -21,10 +21,11 @@ main {
 }
 
 section {
-  height: 500px;
+  height: 580px;
   width: 400px;
   background-color: white;
   border-radius: 15px;
+  box-shadow: 0 10px 10px -5px hsl(224, 23%, 55%);
 }
 
 figure > img {
@@ -36,18 +37,74 @@ figure > img {
 .conteiner {
   padding-left: 30px;
   padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .titulo {
-  display: flex;
-  justify-content: center;
   padding-top: 20px;
   font-size: 30px;
 }
 
 .texto {
-  display: flex;
-  align-items: center;
-
+  text-align: center;
   color: #9fa1a6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.plan {
+  background-color: #f8f9fe;
+  height: 80px;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icono {
+  margin: 19px;
+}
+
+.precio {
+  font-size: 15px;
+  margin-right: 90px;
+}
+
+.precio-real {
+  color: #b6b9c3;
+}
+
+.change:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: #362bd8;
+  color: white;
+  height: 50px;
+  width: 340px;
+  border: solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0px 13px 10px -5px hsla(245, 75%, 52%, 0.465);
+}
+
+.button-2 {
+  background-color: #fffffd;
+  height: 20px;
+  width: 340px;
+  border: solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding-bottom: 20px;
 }
